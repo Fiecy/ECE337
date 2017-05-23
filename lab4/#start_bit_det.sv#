@@ -1,0 +1,16 @@
+// $Id: $
+// File name:   start_bit_det.sv
+// Created:     9/19/2016
+// Author:      Yi Li
+// Lab Section: 337-03
+// Version:     1.0  Initial Design Entry
+// Description: .
+module start_bit_det
+  (
+   input clk,
+   input n_rst,
+   input serial_in,
+   output start_bit_detected
+   );
+
+   
